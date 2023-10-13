@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "fmt": "prettier --write 'src/**/*.{ts,tsx}'"
+    "lint-and-format": "eslint --fix 'src/**/*.{ts,tsx}' && next lint && prettier --write 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "jotai": "^2.4.3",
