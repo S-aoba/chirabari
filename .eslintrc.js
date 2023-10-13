@@ -58,6 +58,10 @@ module.exports = {
       rules: {
         'import/no-default-export': 'off',
       },
+      files: ['src/components/ui/*.tsx'],
+      rules: {
+        "no-restricted-imports": "off"
+      }
     },
   ],
 }
