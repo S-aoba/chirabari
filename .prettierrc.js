@@ -8,6 +8,7 @@ module.exports = {
   bracketSameLine: false,
   arrowParens: "always",
   proseWrap: "always",
+  singleAttributePerLine: true,
   htmlWhitespaceSensitivity: 'strict',
   trailingComma: 'es5',
 };
