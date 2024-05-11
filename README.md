@@ -4,7 +4,7 @@
 | 領域         | 技術                     |
 |--------------|--------------------------|
 | フロントエンド | TypeScript, React, Next.js |
-| バックエンド   | Next.jsのAPIルート, Laravel, Hono |
+| バックエンド   | NextJs API Routes, Laravel, Hono |
 | バリデーション | Zod                      |
 | データベース   | Neon, Supabase           |
 | テスト       | Jest, PHPUnit            |
